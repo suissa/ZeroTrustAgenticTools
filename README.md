@@ -58,3 +58,16 @@ zig-out/bin/ztat-security --help
 - Adicione novas tools criando `src/<nome>.zig` com uma `ToolSpec` e registrando o nome em `build.zig`.
 - Mantenha ações privilegiadas fora do binário de domínio; use adaptadores isolados e autorizados.
 - Nunca persista ou ecoe segredos recebidos como entrada.
+
+## Implementações adicionais
+
+Além dos binários Zig `ztat-*`, o repositório inclui as mesmas tools em outras linguagens para facilitar adoção por runtimes diferentes:
+
+| Linguagem | Diretório | Prefixo de binário | Build/check |
+| --- | --- | --- | --- |
+| TypeScript | `ts/` | `ztat-ts-*` | `npm run build` dentro de `ts/` |
+| Python | `py/` | `ztat-py-*` | `python -m compileall py/ztat_tools` |
+| Go | `go/` | `ztat-go-*` | `go build ./...` dentro de `go/` |
+| Rust | `rs/` | `ztat-rs-*` | `cargo build` dentro de `rs/` |
+
+Todas as implementações preservam o mesmo contrato zero-trust: entrada por `stdin`, limite de 64 KiB, modo `plan_only`, varredura de prompt injection, varredura de segredos, negação de rede/escrita/side effects e formato JSON auditável.
