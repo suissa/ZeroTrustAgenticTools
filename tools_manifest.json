@@ -1,0 +1,14 @@
+[
+  {"name":"finance","domain":"financial operations","purpose":"budgeting, cash-flow, reconciliation hints, portfolio risk triage"},
+  {"name":"accounting","domain":"accounting operations","purpose":"ledger classification, invoice checks, close checklist, tax evidence pack"},
+  {"name":"support","domain":"customer support","purpose":"ticket triage, response drafting, escalation, sentiment routing"},
+  {"name":"sales","domain":"sales operations","purpose":"lead scoring, proposal drafting, CRM update plans, pipeline hygiene"},
+  {"name":"security","domain":"security operations","purpose":"alert triage, threat modeling, policy review, incident runbooks"},
+  {"name":"infra","domain":"infrastructure operations","purpose":"change plans, capacity review, deployment readiness, rollback design"},
+  {"name":"data-analysis","domain":"data analysis","purpose":"dataset profiling, metric definitions, anomaly triage, report outlines"},
+  {"name":"personal-assistant","domain":"personal assistant","purpose":"calendar plans, task prioritization, travel preparation, reminders"},
+  {"name":"digital-twin","domain":"digital twin","purpose":"preference modeling, behavior simulation, decision rehearsal, memory review"},
+  {"name":"personal-shopper","domain":"personal shopper","purpose":"requirements capture, comparison matrix, budget fit, purchase risk notes"},
+  {"name":"scraper","domain":"web scraping","purpose":"robots-aware scrape plans, extraction schemas, rate-limit plans, provenance capture"},
+  {"name":"premium-layout","domain":"premium layout creation","purpose":"layout briefs, design tokens, component plans, accessibility checks"}
+]

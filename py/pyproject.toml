@@ -1,0 +1,17 @@
+[project]
+name = "zero-trust-agentic-tools-py"
+version = "0.1.0"
+requires-python = ">=3.10"
+[project.scripts]
+ztat-py-finance = "ztat_tools.finance:main"
+ztat-py-accounting = "ztat_tools.accounting:main"
+ztat-py-support = "ztat_tools.support:main"
+ztat-py-sales = "ztat_tools.sales:main"
+ztat-py-security = "ztat_tools.security:main"
+ztat-py-infra = "ztat_tools.infra:main"
+ztat-py-data-analysis = "ztat_tools.data_analysis:main"
+ztat-py-personal-assistant = "ztat_tools.personal_assistant:main"
+ztat-py-digital-twin = "ztat_tools.digital_twin:main"
+ztat-py-personal-shopper = "ztat_tools.personal_shopper:main"
+ztat-py-scraper = "ztat_tools.scraper:main"
+ztat-py-premium-layout = "ztat_tools.premium_layout:main"
