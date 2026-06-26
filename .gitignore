@@ -6,3 +6,5 @@ dist/
 target/
 __pycache__/
 *.py[cod]
+*lock*
+ts/paclage-lock.json
